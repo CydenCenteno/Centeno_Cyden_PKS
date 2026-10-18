@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 360" width="560" height="360" role="img" aria-label="Three-tier architecture">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0,0 10,4 0,8" fill="#374151"/>
+    </marker>
+  </defs>
+  <rect width="560" height="360" fill="#ffffff"/>
+  <rect x="80" y="20" width="400" height="80" rx="10" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="280" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e3a8a">Presentation Tier</text>
+  <text x="280" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e3a8a">HTML / CSS / JS, mobile app</text>
+  <rect x="80" y="140" width="400" height="80" rx="10" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+  <text x="280" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#14532d">Application Tier</text>
+  <text x="280" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#14532d">Business logic, REST API, validation</text>
+  <rect x="80" y="260" width="400" height="80" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+  <text x="280" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#78350f">Data Tier</text>
+  <text x="280" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#78350f">Database, file storage</text>
+  <line x1="280" y1="100" x2="280" y2="140" stroke="#374151" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="280" y1="220" x2="280" y2="260" stroke="#374151" stroke-width="2" marker-end="url(#arr)"/>
+</svg>

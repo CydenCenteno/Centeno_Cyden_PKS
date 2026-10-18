@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" width="760" height="300" role="img" aria-label="Client server request flow">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <polygon points="0,0 10,4 0,8" fill="#374151"/>
+    </marker>
+  </defs>
+  <rect width="760" height="300" fill="#ffffff"/>
+  <rect x="20" y="100" width="150" height="100" rx="10" fill="#dbeafe" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="95" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e3a8a">Browser</text>
+  <text x="95" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#1e3a8a">Client</text>
+  <rect x="305" y="100" width="150" height="100" rx="10" fill="#dcfce7" stroke="#15803d" stroke-width="2"/>
+  <text x="380" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#14532d">Server</text>
+  <text x="380" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#14532d">Business logic / API</text>
+  <rect x="590" y="100" width="150" height="100" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="2"/>
+  <text x="665" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#78350f">Database</text>
+  <text x="665" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#78350f">Persistent data</text>
+  <line x1="170" y1="125" x2="305" y2="125" stroke="#374151" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="237" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#374151">1. HTTP request</text>
+  <line x1="305" y1="180" x2="170" y2="180" stroke="#374151" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="237" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#374151">4. Response (JSON/HTML)</text>
+  <line x1="455" y1="125" x2="590" y2="125" stroke="#374151" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="522" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#374151">2. SQL query</text>
+  <line x1="590" y1="180" x2="455" y2="180" stroke="#374151" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="522" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#374151">3. Result rows</text>
+</svg>
